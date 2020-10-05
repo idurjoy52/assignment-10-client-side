@@ -1,0 +1,10 @@
+.logIn-page {
+    width: 350px;
+    height: 400px;
+    margin: 100px  auto 0 auto;
+    background-color: gray;
+    text-align: center;
+}
+.login-btn {
+    margin-top: 50%;
+}

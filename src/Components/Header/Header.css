@@ -1,0 +1,14 @@
+.header img {
+    width: 120px;
+    height: auto;
+}
+.header ul {
+    margin: 0;
+    padding: 0;
+}
+.header ul li,
+.header ul button {
+    display: inline;
+    margin: 20px;
+    cursor: pointer;
+}
