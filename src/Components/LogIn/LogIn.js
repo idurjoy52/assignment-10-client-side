@@ -30,6 +30,7 @@ const LogIn = () => {
     return (
         <div className="logIn-page">
             <Container>
+                <h3 style={{textAlign: "center"}}>Log In With</h3>
                 <Button className="login-btn"onClick={handleGoogleSignIn}>Continue With Google</Button>
             </Container>
         </div>

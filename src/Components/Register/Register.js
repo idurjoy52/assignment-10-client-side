@@ -33,6 +33,7 @@ const Register = () => {
     }
     return (
         <div className="registration-form">
+            <h3 style={{textAlign: 'center'}}>Register as a Volunteer</h3>
             <form onSubmit={handleSubmit}> 
                 <input type="text" name="name" id="" defaultValue ={loggedInUser.name}/>
                 <input type="email" name="email" id=""  defaultValue ={loggedInUser.email}/>
@@ -43,7 +44,7 @@ const Register = () => {
                 
                 <input type="text" name="workname" id="" defaultValue={workname}/>
                 
-                 <input type="submit" value="Registration"/>
+                <input type="submit" value="Registration"/>
             </form>
         </div>    
         

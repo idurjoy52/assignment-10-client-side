@@ -27,6 +27,7 @@ const AdminPanel = () => {
     }
     return (
         <Container>
+            <h3 style={{textAlign: "center"}}>Volunteer Register List</h3>
             <Table striped bordered hover>
                 <thead>
                     <tr>
