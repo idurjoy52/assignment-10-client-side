@@ -8,7 +8,7 @@ const Events = () => {
         fetch('https://pacific-wildwood-01856.herokuapp.com/allEvents')
         .then(response => response.json())
         .then(data => setEvents(data))
-    },[])
+    },[events])
     return (
         <Container> 
             <div style={{textAlign:"center"}}>

@@ -12,7 +12,7 @@ const UserTasksList = () => {
         .then(result => {
             setUserTasks(result)
         })
-    },[])
+    },[userTasks])
     const handleCancelTask = (taskId) => {
         fetch(`https://pacific-wildwood-01856.herokuapp.com/delete/${taskId}`,{ 
             method: 'DELETE', 
