@@ -30,8 +30,8 @@ function App() {
       <Switch> 
         <Route path="/home"> 
           <Banner></Banner>
-          <CharityWorks></CharityWorks>
           <Events></Events>
+          <CharityWorks></CharityWorks>
         </Route>
         <Route path="/login">
           <LogIn></LogIn>
